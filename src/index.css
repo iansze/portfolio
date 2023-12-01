@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .vertical-line::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+    left: 50%;
+    top: 0;
+  }
+}
