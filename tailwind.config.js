@@ -14,6 +14,9 @@ export default {
       animation: {
         tada: "tada 1s infinite",
       },
+      height: {
+        screen: ["100vh /* fallback for Opera, IE and etc. */", "100dvh"],
+      },
     },
   },
   plugins: [],

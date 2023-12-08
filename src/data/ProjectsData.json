@@ -1,0 +1,94 @@
+[
+  {
+    "title": "TMDB Movie App",
+    "summary": "The TMDB project is a web-based platform designed for movie enthusiasts. It offers a comprehensive and engaging experience for users looking to explore, discover, and learn more about various movies.",
+    "description": "The application combines a visually appealing interface with user-friendly functionalities to create a seamless movie browsing and discovery experience.",
+    "technology": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Tailwind CSS",
+      "Stripe",
+      "Axios"
+    ],
+    "images": [
+      "/movie/movie-home.png",
+      "/movie/movie-profile.png",
+      "/movie/movie-list.png",
+      "/movie/movie-details.png",
+      "/movie/movie-payment.png"
+    ],
+    "backgroundColor": "bg-red-500",
+    "websiteURL": "https://moiv-4c40c.firebaseapp.com/",
+    "githubURL": "https://github.com/iansze/TMDB"
+  },
+  {
+    "title": "Estate Market Place",
+    "summary": "The EstateMarketPlace project is a web-based application designed to facilitate the buying, selling, and renting of real estate properties",
+    "description": "Aiming at providing a user-friendly platform, it connects property owners with potential buyers or renters, streamlining the process of real estate transactions",
+    "technology": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Redux",
+      "Tailwind CSS",
+      "MongoDB"
+    ],
+    "images": [
+      "/estate/estate.png",
+      "/estate/estate-news.png",
+      "/estate/estate-listing_detail.png",
+      "/estate/estate-advance_search.png",
+      "/estate/estate-profile.png",
+      "/estate/estate-personal_listing.png"
+    ],
+    "backgroundColor": "bg-blue-800",
+    "websiteURL": "https://estate-website.onrender.com/",
+    "githubURL": "https://github.com/iansze/EstateMarketPlace"
+  },
+  {
+    "title": "Blog with Redux Toolkit",
+    "summary": "BlogRTK is a modern web-based blogging platform that allows users to create, share, and engage with blog posts.",
+    "description": "It's built to provide an easy-to-use, interactive, and community-driven blogging experience.",
+    "technology": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Redux",
+      "Redux Toolkit",
+      "SASS"
+    ],
+    "images": [
+      "/blog/blog.png",
+      "/blog/blog-add_post.png",
+      "/blog/blog-edit_post.png",
+      "/blog/blog-users_list.png"
+    ],
+    "backgroundColor": "bg-blue-800",
+    "websiteURL": "https://blog-rtk.onrender.com/",
+    "githubURL": "https://github.com/iansze/BlogRTK"
+  },
+  {
+    "title": "Angular Simple Portfolio",
+    "summary": "This project showcases a full-stack application using Angular for the frontend and Node.js for the backend.",
+    "description": "This project showcases a full-stack application using Angular for the frontend and Node.js for the backend.",
+    "technology": [
+      "Angular",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap"
+    ],
+    "images": [
+      "/angular/angular.png",
+      "/angular/angular-projects.png",
+      "/angular/angular-contacts.png"
+    ],
+    "backgroundColor": "bg-orange-800",
+    "websiteURL": "https://angular-portfolio.onrender.com/",
+    "githubURL": "https://github.com/iansze/COMP229_Assignment2"
+  }
+]
