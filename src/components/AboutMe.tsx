@@ -4,7 +4,7 @@ import AnimatedDiv from "../components/AnimatedDiv";
 
 const AboutMe = () => {
   return (
-    <section className=" my-4  flex flex-col  gap-2 p-4">
+    <div className=" my-4  flex w-full flex-col gap-2  py-4 ">
       <AnimatedDiv id="about" className=" my-4  flex flex-col  gap-2 p-4">
         <motion.div className="flex  flex-col gap-2 ">
           <h1 className="text-center text-3xl font-bold">ABOUT ME</h1>
@@ -24,7 +24,7 @@ const AboutMe = () => {
           </p>
         </motion.div>
       </AnimatedDiv>
-    </section>
+    </div>
   );
 };
 

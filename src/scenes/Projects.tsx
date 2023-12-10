@@ -8,7 +8,7 @@ const Projects = () => {
   const projectsData: ProjectData[] = data as ProjectData[];
 
   return (
-    <motion.div className=" flex flex-col px-2 py-4">
+    <motion.section id="projects" className=" flex flex-col px-2 py-4 ">
       {projectsData.map((project, index) => (
         <Project
           key={index}
@@ -22,7 +22,7 @@ const Projects = () => {
           githubURL={project.githubURL}
         />
       ))}
-    </motion.div>
+    </motion.section>
   );
 };
 

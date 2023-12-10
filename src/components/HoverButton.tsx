@@ -1,14 +1,6 @@
-import React from "react";
 import "./button.css";
 import Anchor from "./Anchor";
-import {
-  motion,
-  useAnimation,
-  useInView,
-  useScroll,
-  useTransform,
-  useSpring,
-} from "framer-motion";
+import { motion } from "framer-motion";
 
 type HoverButtonProps = {
   text: string;

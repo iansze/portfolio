@@ -55,14 +55,6 @@
   height: 15px;
 }
 
-.swiper-pagination-bullet-inactive-opacity {
-  opacity: 0.5;
-}
-
 .swiper-scrollbar-drag {
   background-color: grey;
-}
-
-.swiper-scrollbar.swiper-scrollbar-horizontal {
-  height: 2px;
 }

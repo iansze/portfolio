@@ -18,7 +18,7 @@
       "/movie/movie-details.png",
       "/movie/movie-payment.png"
     ],
-    "backgroundColor": "bg-red-500",
+    "backgroundColor": "linear-gradient(90deg, rgba(0,48,255,0.40388768898488125) 53%, rgba(2,0,36,1) 90%)",
     "websiteURL": "https://moiv-4c40c.firebaseapp.com/",
     "githubURL": "https://github.com/iansze/TMDB"
   },
@@ -43,7 +43,7 @@
       "/estate/estate-profile.png",
       "/estate/estate-personal_listing.png"
     ],
-    "backgroundColor": "bg-blue-800",
+    "backgroundColor": "linear-gradient(90deg, rgba(0,229,255,0.40388768898488125) 68%, rgba(11,131,148,1) 83%)",
     "websiteURL": "https://estate-website.onrender.com/",
     "githubURL": "https://github.com/iansze/EstateMarketPlace"
   },
@@ -66,7 +66,7 @@
       "/blog/blog-edit_post.png",
       "/blog/blog-users_list.png"
     ],
-    "backgroundColor": "bg-blue-800",
+    "backgroundColor": "linear-gradient(90deg, rgba(232,255,0,0.5745140388768899) 53%, rgba(148,137,11,1) 83%)",
     "websiteURL": "https://blog-rtk.onrender.com/",
     "githubURL": "https://github.com/iansze/BlogRTK"
   },
@@ -87,7 +87,7 @@
       "/angular/angular-projects.png",
       "/angular/angular-contacts.png"
     ],
-    "backgroundColor": "bg-orange-800",
+    "backgroundColor": "linear-gradient(90deg, rgba(255,0,0,0.5745140388768899) 37%, rgba(119,11,11,1) 64%)",
     "websiteURL": "https://angular-portfolio.onrender.com/",
     "githubURL": "https://github.com/iansze/COMP229_Assignment2"
   }

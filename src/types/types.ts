@@ -8,3 +8,9 @@ export type ProjectData = {
   websiteURL: string;
   githubURL: string;
 };
+
+export type FormInputData = {
+  name: string;
+  email: string;
+  message: string;
+};

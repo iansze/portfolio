@@ -4,9 +4,10 @@ import { useInView } from "react-intersection-observer";
 
 type AnimatedDivProps = {
   id: string;
-  className: string;
+  className?: string;
   children: React.ReactNode;
   variants?: Variants;
+  delay?: number;
 };
 
 const AnimatedDiv = ({
@@ -14,6 +15,7 @@ const AnimatedDiv = ({
   className,
   children,
   variants,
+  delay,
 }: AnimatedDivProps) => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
@@ -36,7 +38,7 @@ const AnimatedDiv = ({
       variants={variants || defaultVariants}
       initial="hidden"
       animate={controls}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.5, delay: delay || 0 }}
       className={className}
     >
       {children}

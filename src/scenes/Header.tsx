@@ -1,11 +1,10 @@
 import Nav from "../components/Nav";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import engineerImg from "/engineer.png";
-import useMediaQuery from "../hooks/useMediaQuery";
+
 import HoverButton from "../components/HoverButton";
+import "./Header.css";
 
 const Header = () => {
-  const mediaQuery = useMediaQuery();
   const { scrollY } = useScroll();
   const fadeOutStart = 300;
   const fadeOutEnd = 1200;
@@ -25,10 +24,13 @@ const Header = () => {
   );
 
   return (
-    <header id="header" className="flex items-center justify-center px-8">
+    <header
+      id="header"
+      className="relative flex items-center justify-center px-8 "
+    >
       <Nav />
       <motion.div
-        className="flex h-screen flex-col items-center justify-center gap-2 p-4 text-center lg:w-10/12 lg:px-8 lg:text-left"
+        className="z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center backdrop:flex lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
         style={{ opacity, scale }}
       >
         <motion.p
@@ -63,11 +65,6 @@ const Header = () => {
 
         <HoverButton text="Contact Me" />
       </motion.div>
-      {mediaQuery > 768 ? (
-        <div className="">
-          <img src={engineerImg} alt="" className="bg-transparent" />
-        </div>
-      ) : null}
     </header>
   );
 };
