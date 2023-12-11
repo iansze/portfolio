@@ -10,11 +10,8 @@ const App = () => {
   return (
     <div className="relative min-h-screen bg-black text-white">
       <Header />
-
       <Profile />
-
       <Projects />
-
       <Contact />
       <Footer />
     </div>

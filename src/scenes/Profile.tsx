@@ -3,7 +3,7 @@ import Skills from "../components/Skills";
 
 const Profile = () => {
   return (
-    <section className="lg:mx-auto lg:grid lg:w-11/12 lg:grid-cols-2 lg:gap-8  2xl:w-9/12">
+    <section className="lg:mx-auto lg:grid lg:w-11/12 lg:grid-cols-2 lg:gap-8  2xl:w-4/5">
       <AboutMe />
       <Skills />
     </section>

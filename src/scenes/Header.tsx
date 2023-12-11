@@ -34,7 +34,7 @@ const Header = () => {
         style={{ opacity, scale }}
       >
         <motion.p
-          className="text-lg "
+          className="font-robotoSlab text-lg "
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
@@ -42,7 +42,7 @@ const Header = () => {
           Hello, I am
         </motion.p>
         <motion.h1
-          className="text-3xl font-semibold text-red-400"
+          className="font-robotoSlab text-3xl  font-semibold text-red-400"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
@@ -50,7 +50,7 @@ const Header = () => {
           Wing Hon Winco Sze
         </motion.h1>
         <motion.p
-          className="leading-7"
+          className="font-openSans leading-7"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}

@@ -4,7 +4,7 @@ import Anchor from "./Anchor";
 const Nav = () => {
   return (
     <motion.div
-      className="absolute inset-0 top-0 mx-auto flex min-h-min w-11/12 justify-between"
+      className="font-openSans absolute inset-0 top-0 mx-auto flex min-h-min w-11/12 justify-between font-semibold"
       initial={{ opacity: 0, x: 100 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}

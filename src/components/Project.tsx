@@ -41,7 +41,7 @@ const Project = ({
     >
       {/* Image */}
       <div className="mx-4 flex flex-col  py-8 lg:flex-row lg:items-center lg:gap-8 lg:px-12 2xl:mx-auto 2xl:w-9/12">
-        <div className="  ">
+        <div className="">
           <Swiper
             modules={[Navigation, Pagination, A11y, EffectFade]}
             spaceBetween={50}
@@ -64,12 +64,16 @@ const Project = ({
             ))}
           </Swiper>
         </div>
+
+        {/* Content */}
         <AnimatedDiv
           id="movie-content"
           className="mt-2 flex flex-col gap-4 px-4  "
         >
           <div className="flex items-center gap-4 ">
-            <h1 className="text-3xl font-bold lg:text-4xl">{title}</h1>
+            <h1 className="font-robotoSlab text-3xl font-bold lg:text-4xl ">
+              {title}
+            </h1>
             <a href={githubURL} target="_blank">
               <FontAwesomeIcon
                 icon={faCode as IconProp}
@@ -85,9 +89,10 @@ const Project = ({
               />
             </a>
           </div>
-          <p className="">{summary}</p>
-          <p className="">{description}</p>
+          <p className="font-openSans">{summary}</p>
+          <p className="font-openSans">{description}</p>
 
+          {/*Technology*/}
           <motion.ul
             ref={ref}
             className="flex flex-wrap  gap-2"
@@ -101,7 +106,7 @@ const Project = ({
             {technology.map((tech, index) => (
               <motion.li
                 key={index}
-                className="rounded-md border bg-zinc-900 px-2 py-0.5 text-white"
+                className="font-openSans rounded-md border bg-zinc-900 px-2 py-0.5 text-white"
                 variants={{
                   hidden: { opacity: 0, scale: 0.5, y: 50 },
                   visible: {

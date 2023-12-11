@@ -15,26 +15,25 @@
 }
 
 .swiper-button-prev {
-  left: 0;
+  left: 15px;
 }
 .swiper-button-next {
-  right: 0;
+  right: 15px;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 40px;
   height: 100%;
   top: 20px;
 }
 
 .swiper-button-prev:after {
-  padding: 5px 6px;
+  padding: 6px 6px;
   opacity: 0.3;
 }
 
 .swiper-button-next:after {
-  padding: 5px 8px;
+  padding: 6px 8px;
   opacity: 0.3;
 }
 

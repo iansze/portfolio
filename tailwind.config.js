@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import tailwindScrollbar from "tailwind-scrollbar";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -23,8 +22,12 @@ export default {
         "gradient-pj1":
           "linear-gradient(90deg, rgba(0,48,255,0.40388768898488125) 53%, rgba(2,0,36,1) 90%)",
       },
+      fontFamily: {
+        robotoSlab: ["Roboto Slab", "sans-serif"],
+        openSans: ["Open Sans", "sans-serif"],
+      },
     },
   },
 
-  plugins: [tailwindScrollbar],
+  plugins: [],
 };

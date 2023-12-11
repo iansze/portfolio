@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 import { useForm, ValidationError } from "@formspree/react";
+import AlertDialog from "../components/AlertDialog";
 
 const Contact = () => {
   const id = import.meta.env.VITE_FORM_ID;
@@ -35,14 +36,14 @@ const Contact = () => {
 
   return (
     <section id="contact" className="p-4" ref={ref}>
-      <motion.h1 className="text-center text-3xl font-bold">
+      <motion.h1 className="font-robotoSlab text-center text-3xl font-bold ">
         Contact Me
       </motion.h1>
-
+      {/* Icon */}
       <motion.div className="mt-4 text-center">
         <FontAwesomeIcon icon={icon} size="2x" />
       </motion.div>
-
+      {/* Form */}
       {icon === faEnvelopeOpen && showForm && (
         <motion.form
           onSubmit={handleSubmit}
@@ -56,30 +57,30 @@ const Contact = () => {
             type: "spring",
             stiffness: 100,
           }}
-          className="mx-auto flex w-9/12 flex-col gap-1 text-black lg:w-1/2"
+          className="mx-auto flex w-9/12 flex-col gap-1 text-black lg:w-1/2 2xl:w-2/5"
         >
-          <label htmlFor="name" className="text-white">
+          <label htmlFor="name" className="font-openSans text-white">
             Name
           </label>
           <input
             type="text"
             id="name"
             name="name"
-            className="rounded-sm border p-1"
+            className="font-openSans rounded-sm border p-2"
             required
           />
           {state.errors && (
             <ValidationError prefix="Name" field="name" errors={state.errors} />
           )}
 
-          <label htmlFor="email" className="text-white">
+          <label htmlFor="email" className="font-openSans text-white">
             Email
           </label>
           <input
             type="email"
             id="email"
             name="email"
-            className="rounded-sm border p-1"
+            className="font-openSans rounded-sm border p-2"
             required
           />
           {state.errors && (
@@ -90,8 +91,7 @@ const Contact = () => {
               errors={state.errors}
             />
           )}
-
-          <label htmlFor="message" className="text-white">
+          <label htmlFor="message" className="font-openSans text-white">
             Message
           </label>
           <textarea
@@ -99,7 +99,7 @@ const Contact = () => {
             name="message"
             cols={20}
             rows={5}
-            className="rounded-sm border p-1"
+            className="font-openSans rounded-sm border p-2"
             required
           />
           {state.errors && (
@@ -114,12 +114,13 @@ const Contact = () => {
           <button
             disabled={state.submitting}
             type="submit"
-            className="mt-2 rounded-sm border bg-blue-500 p-2 font-semibold text-white hover:bg-blue-700"
+            className="font-openSans mt-2 rounded-sm border bg-blue-500 p-2 font-semibold text-white hover:bg-blue-700"
           >
             Send
           </button>
         </motion.form>
       )}
+      {state.succeeded && <AlertDialog isSend={true} />}
     </section>
   );
 };
