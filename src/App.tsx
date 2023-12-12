@@ -5,10 +5,12 @@ import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 
 import Profile from "./scenes/Profile";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
-    <div className="bg-background text-navy relative min-h-screen">
+    <div className="bg-background text-navy relative ">
+      <Nav />
       <Header />
       <Profile />
       <Projects />

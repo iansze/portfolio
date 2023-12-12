@@ -1,4 +1,3 @@
-import Nav from "../components/Nav";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 
 import HoverButton from "../components/HoverButton";
@@ -28,9 +27,8 @@ const Header = () => {
       id="header"
       className="relative flex items-center justify-center px-8"
     >
-      <Nav />
       <motion.div
-        className="text-text z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center backdrop:flex lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
+        className="text-text z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
         style={{ opacity, scale }}
       >
         <motion.p
