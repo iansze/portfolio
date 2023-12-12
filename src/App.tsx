@@ -8,7 +8,7 @@ import Profile from "./scenes/Profile";
 
 const App = () => {
   return (
-    <div className="relative min-h-screen bg-black text-white">
+    <div className="bg-background text-navy relative min-h-screen">
       <Header />
       <Profile />
       <Projects />

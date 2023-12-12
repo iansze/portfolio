@@ -10,7 +10,7 @@ const Nav = () => {
       transition={{ duration: 1 }}
     >
       <img src="" alt="" className="" />
-      <div className="z-20 flex gap-4 p-2">
+      <div className="text-primary z-20 flex gap-4 p-2">
         <Anchor page="About">About</Anchor>
         <Anchor page="Projects">Projects</Anchor>
         <Anchor page="Contact">Contact</Anchor>

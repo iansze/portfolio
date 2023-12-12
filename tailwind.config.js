@@ -26,6 +26,14 @@ export default {
         robotoSlab: ["Roboto Slab", "sans-serif"],
         openSans: ["Open Sans", "sans-serif"],
       },
+      colors: {
+        primary: "var(--primary-color)",
+        secondary: "var(--secondary-color)",
+        border: "var(--border-color)",
+        background: "var(--background-color)",
+        highlight: "var(--highlight-color)",
+        text: "var(--text-color)",
+      },
     },
   },
 

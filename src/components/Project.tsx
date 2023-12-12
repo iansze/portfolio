@@ -35,12 +35,13 @@ const Project = ({
   return (
     <motion.div
       id="project"
+      className=""
       style={{
         background: backgroundColor,
       }}
     >
       {/* Image */}
-      <div className="mx-4 flex flex-col  py-8 lg:flex-row lg:items-center lg:gap-8 lg:px-12 2xl:mx-auto 2xl:w-9/12">
+      <div className="mx-4 flex flex-col  py-8 lg:flex-row lg:items-center lg:gap-8 2xl:mx-auto 2xl:w-11/12">
         <div className="">
           <Swiper
             modules={[Navigation, Pagination, A11y, EffectFade]}
@@ -49,7 +50,7 @@ const Project = ({
             pagination={{ clickable: true }}
             grabCursor={true}
             effect={"fade"}
-            className="h-full sm:w-[600px] md:w-4/5 md:px-4 lg:w-[650px] xl:w-[700px] 2xl:max-w-[800px] "
+            className=" w-full  md:px-4 lg:w-[700px] xl:w-[850px] 2xl:w-[1000px]"
           >
             {images.map((image, index) => (
               <SwiperSlide key={index}>
@@ -57,7 +58,7 @@ const Project = ({
                   <img
                     src={image}
                     alt={image}
-                    className="h-full w-full select-none  object-center "
+                    className="h-full w-full select-none  object-cover"
                   />
                 </AnimatedDiv>
               </SwiperSlide>
@@ -68,29 +69,29 @@ const Project = ({
         {/* Content */}
         <AnimatedDiv
           id="movie-content"
-          className="mt-2 flex flex-col gap-4 px-4  "
+          className="text-text mt-2 flex flex-col gap-4 px-4 "
         >
           <div className="flex items-center gap-4 ">
-            <h1 className="font-robotoSlab text-3xl font-bold lg:text-4xl ">
+            <h1 className="font-robotoSlab text-primary text-3xl font-bold xl:text-4xl">
               {title}
             </h1>
             <a href={githubURL} target="_blank">
               <FontAwesomeIcon
                 icon={faCode as IconProp}
                 size="lg"
-                className="cursor-pointer hover:animate-tada "
+                className="text-highlight cursor-pointer hover:animate-tada"
               />
             </a>
             <a href={websiteURL} target="_blank">
               <FontAwesomeIcon
                 icon={faLink as IconProp}
                 size="lg"
-                className="cursor-pointer hover:animate-tada "
+                className="text-highlight cursor-pointer hover:animate-tada"
               />
             </a>
           </div>
-          <p className="font-openSans">{summary}</p>
-          <p className="font-openSans">{description}</p>
+          <p className="font-openSans text-text">{summary}</p>
+          <p className="font-openSans text-text">{description}</p>
 
           {/*Technology*/}
           <motion.ul
@@ -106,7 +107,7 @@ const Project = ({
             {technology.map((tech, index) => (
               <motion.li
                 key={index}
-                className="font-openSans rounded-md border bg-zinc-900 px-2 py-0.5 text-white"
+                className="font-openSans bg-highlight text-text border-border rounded-md border px-2 py-0.5"
                 variants={{
                   hidden: { opacity: 0, scale: 0.5, y: 50 },
                   visible: {

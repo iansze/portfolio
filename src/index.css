@@ -13,6 +13,14 @@
     top: 0;
   }
 }
+:root {
+  --primary-color: #3498db; /* Cool blue for a professional and trustworthy feel */
+  --secondary-color: #95a5a6; /* A calm gray for neutral accents */
+  --border-color: #7f8c8d; /* A darker shade of gray for borders and subtle outlines */
+  --background-color: #000000; /* Black for the background, sleek and modern */
+  --highlight-color: #1abc9c; /* A fresh green for highlights and interactive elements */
+  --text-color: #ecf0f1;
+}
 
 .swiper-button-prev {
   left: 15px;

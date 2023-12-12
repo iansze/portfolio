@@ -26,15 +26,15 @@ const Header = () => {
   return (
     <header
       id="header"
-      className="relative flex items-center justify-center px-8 "
+      className="relative flex items-center justify-center px-8"
     >
       <Nav />
       <motion.div
-        className="z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center backdrop:flex lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
+        className="text-text z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center backdrop:flex lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
         style={{ opacity, scale }}
       >
         <motion.p
-          className="font-robotoSlab text-lg "
+          className="font-robotoSlab text-secondary text-lg"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
@@ -42,7 +42,7 @@ const Header = () => {
           Hello, I am
         </motion.p>
         <motion.h1
-          className="font-robotoSlab text-3xl  font-semibold text-red-400"
+          className="font-robotoSlab text-highlight  text-3xl font-semibold"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
@@ -50,7 +50,7 @@ const Header = () => {
           Wing Hon Winco Sze
         </motion.h1>
         <motion.p
-          className="font-openSans leading-7"
+          className="font-openSans text-secondary leading-7"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}

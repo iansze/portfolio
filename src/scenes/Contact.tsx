@@ -36,11 +36,11 @@ const Contact = () => {
 
   return (
     <section id="contact" className="p-4" ref={ref}>
-      <motion.h1 className="font-robotoSlab text-center text-3xl font-bold ">
+      <motion.h1 className="text-primary font-robotoSlab text-center text-3xl font-bold ">
         Contact Me
       </motion.h1>
       {/* Icon */}
-      <motion.div className="mt-4 text-center">
+      <motion.div className="text-highlight mt-4 text-center">
         <FontAwesomeIcon icon={icon} size="2x" />
       </motion.div>
       {/* Form */}
@@ -57,7 +57,7 @@ const Contact = () => {
             type: "spring",
             stiffness: 100,
           }}
-          className="mx-auto flex w-9/12 flex-col gap-1 text-black lg:w-1/2 2xl:w-2/5"
+          className="text-secondary mx-auto flex w-9/12 flex-col gap-1  lg:w-1/2 2xl:w-2/5"
         >
           <label htmlFor="name" className="font-openSans text-white">
             Name
@@ -66,7 +66,7 @@ const Contact = () => {
             type="text"
             id="name"
             name="name"
-            className="font-openSans rounded-sm border p-2"
+            className="font-openSans broder rounded-sm border p-2"
             required
           />
           {state.errors && (
@@ -114,7 +114,7 @@ const Contact = () => {
           <button
             disabled={state.submitting}
             type="submit"
-            className="font-openSans mt-2 rounded-sm border bg-blue-500 p-2 font-semibold text-white hover:bg-blue-700"
+            className="font-openSans bg-highlight mt-2 rounded-sm border p-2 font-semibold text-white hover:bg-blue-700"
           >
             Send
           </button>
