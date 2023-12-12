@@ -57,9 +57,9 @@ const Contact = () => {
             type: "spring",
             stiffness: 100,
           }}
-          className="text-secondary mx-auto flex w-9/12 flex-col gap-1  lg:w-1/2 2xl:w-2/5"
+          className=" mx-auto flex w-9/12 flex-col gap-1  lg:w-1/2 2xl:w-2/5"
         >
-          <label htmlFor="name" className="font-openSans text-white">
+          <label htmlFor="name" className="font-openSans text-secondary">
             Name
           </label>
           <input
@@ -73,7 +73,7 @@ const Contact = () => {
             <ValidationError prefix="Name" field="name" errors={state.errors} />
           )}
 
-          <label htmlFor="email" className="font-openSans text-white">
+          <label htmlFor="email" className="font-openSans text-secondary">
             Email
           </label>
           <input
@@ -91,7 +91,7 @@ const Contact = () => {
               errors={state.errors}
             />
           )}
-          <label htmlFor="message" className="font-openSans text-white">
+          <label htmlFor="message" className="font-openSans text-secondary">
             Message
           </label>
           <textarea

@@ -49,19 +49,22 @@ const Header = () => {
         >
           Wing Hon Winco Sze
         </motion.h1>
-        <motion.p
+        <motion.div
           className="font-openSans text-secondary leading-7"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          A passionate software engineer with a strong foundation in computer
-          science and a keen interest in web development. My expertise lies in
-          building efficient, user-friendly solutions, and I'm continually
-          exploring new technologies to enhance my skill set and contribute to
-          innovative projects.
-          <br />
-        </motion.p>
+          <p className="">
+            A passionate software engineer with a strong foundation in computer
+            science and a keen interest in web development.
+          </p>
+          <p className="mt-3">
+            My expertise lies in building efficient, user-friendly solutions,
+            and I'm continually exploring new technologies to enhance my skill
+            set and contribute to innovative projects.
+          </p>
+        </motion.div>
 
         <HoverButton text="Contact Me" />
       </motion.div>

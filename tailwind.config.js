@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindScrollbar from "tailwind-scrollbar";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -34,8 +35,11 @@ export default {
         highlight: "var(--highlight-color)",
         text: "var(--text-color)",
       },
+      boxShadow: {
+        "3d": "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+      },
     },
   },
 
-  plugins: [],
+  plugins: [tailwindScrollbar],
 };

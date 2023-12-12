@@ -42,7 +42,7 @@
       "/estate/estate-advance_search.png",
       "/estate/estate-profile.png"
     ],
-    "backgroundColor": "#5A7D8C",
+    "backgroundColor": "#2A3439",
     "websiteURL": "https://estate-website.onrender.com/",
     "githubURL": "https://github.com/iansze/EstateMarketPlace"
   },
@@ -65,14 +65,14 @@
       "/blog/blog-edit_post.png",
       "/blog/blog-users_list.png"
     ],
-    "backgroundColor": "#6A8EAE",
+    "backgroundColor": "#30475E",
     "websiteURL": "https://blog-rtk.onrender.com/",
     "githubURL": "https://github.com/iansze/BlogRTK"
   },
   {
     "title": "Angular Simple Portfolio",
     "summary": "This project showcases a full-stack application using Angular for the frontend and Node.js for the backend.",
-    "description": "This project showcases a full-stack application using Angular for the frontend and Node.js for the backend.",
+    "description": "It's a simple portfolio website that allows users to view my projects and contact me.",
     "technology": [
       "Angular",
       "TypeScript",
@@ -86,7 +86,7 @@
       "/angular/angular-projects.png",
       "/angular/angular-contacts.png"
     ],
-    "backgroundColor": "#778899",
+    "backgroundColor": "#0F4C75",
     "websiteURL": "https://angular-portfolio.onrender.com/",
     "githubURL": "https://github.com/iansze/COMP229_Assignment2"
   }

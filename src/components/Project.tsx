@@ -50,7 +50,7 @@ const Project = ({
             pagination={{ clickable: true }}
             grabCursor={true}
             effect={"fade"}
-            className=" w-full  md:px-4 lg:w-[700px] xl:w-[850px] 2xl:w-[1000px]"
+            className="shadow-3d w-full   lg:w-[700px] xl:w-[850px] 2xl:w-[1000px]"
           >
             {images.map((image, index) => (
               <SwiperSlide key={index}>
@@ -58,7 +58,7 @@ const Project = ({
                   <img
                     src={image}
                     alt={image}
-                    className="h-full w-full select-none  object-cover"
+                    className=" h-full w-full select-none  object-cover"
                   />
                 </AnimatedDiv>
               </SwiperSlide>
@@ -72,7 +72,7 @@ const Project = ({
           className="text-text mt-2 flex flex-col gap-4 px-4 "
         >
           <div className="flex items-center gap-4 ">
-            <h1 className="font-robotoSlab text-primary text-3xl font-bold xl:text-4xl">
+            <h1 className="font-robotoSlab text-primary text-2xl font-bold md:text-3xl xl:text-4xl">
               {title}
             </h1>
             <a href={githubURL} target="_blank">
