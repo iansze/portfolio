@@ -16,9 +16,7 @@ export default {
       animation: {
         tada: "tada 1s infinite",
       },
-      height: {
-        screen: ["100vh /* fallback for Opera, IE and etc. */", "100dvh"],
-      },
+
       backgroundImage: {
         "gradient-pj1":
           "linear-gradient(90deg, rgba(0,48,255,0.40388768898488125) 53%, rgba(2,0,36,1) 90%)",
