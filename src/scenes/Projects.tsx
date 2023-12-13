@@ -20,6 +20,7 @@ const Projects = () => {
           backgroundColor={project.backgroundColor}
           websiteURL={project.websiteURL}
           githubURL={project.githubURL}
+          remarks={project.remarks}
         />
       ))}
     </motion.section>

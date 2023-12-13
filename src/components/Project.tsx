@@ -20,6 +20,7 @@ const Project = ({
   backgroundColor,
   websiteURL,
   githubURL,
+  remarks,
 }: ProjectData) => {
   const controls = useAnimation();
   const [ref, inView] = useInView({
@@ -50,7 +51,7 @@ const Project = ({
             pagination={{ clickable: true }}
             grabCursor={true}
             effect={"fade"}
-            className="shadow-3d w-full   lg:w-[700px] xl:w-[850px] 2xl:w-[1000px]"
+            className="w-full shadow-3d   lg:w-[700px] xl:w-[850px] 2xl:w-[1000px]"
           >
             {images.map((image, index) => (
               <SwiperSlide key={index}>
@@ -69,24 +70,24 @@ const Project = ({
         {/* Content */}
         <AnimatedDiv
           id="movie-content"
-          className="text-text mt-2 flex flex-col gap-4 px-4 "
+          className="mt-2 flex flex-col gap-4 px-4 text-text "
         >
           <div className="flex items-center gap-4 ">
-            <h1 className="font-robotoSlab text-primary text-2xl font-bold md:text-3xl xl:text-4xl">
+            <h1 className="font-robotoSlab text-2xl font-bold text-primary md:text-3xl xl:text-4xl">
               {title}
             </h1>
             <a href={githubURL} target="_blank">
               <FontAwesomeIcon
                 icon={faCode as IconProp}
                 size="lg"
-                className="text-highlight cursor-pointer hover:animate-tada"
+                className="cursor-pointer text-highlight hover:animate-tada"
               />
             </a>
             <a href={websiteURL} target="_blank">
               <FontAwesomeIcon
                 icon={faLink as IconProp}
                 size="lg"
-                className="text-highlight cursor-pointer hover:animate-tada"
+                className="cursor-pointer text-highlight hover:animate-tada"
               />
             </a>
           </div>
@@ -107,7 +108,7 @@ const Project = ({
             {technology.map((tech, index) => (
               <motion.li
                 key={index}
-                className="font-openSans bg-highlight text-text border-border rounded-md border px-2 py-0.5"
+                className="rounded-md border border-border bg-highlight px-2 py-0.5 font-openSans text-text"
                 variants={{
                   hidden: { opacity: 0, scale: 0.5, y: 50 },
                   visible: {
@@ -122,6 +123,12 @@ const Project = ({
               </motion.li>
             ))}
           </motion.ul>
+          {/* Remarks */}
+          {remarks && (
+            <p className="font-robotoSlab text-xs text-secondary opacity-70">
+              {remarks}
+            </p>
+          )}
         </AnimatedDiv>
       </div>
     </motion.div>

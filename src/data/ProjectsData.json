@@ -44,12 +44,13 @@
     ],
     "backgroundColor": "#2A3439",
     "websiteURL": "https://estate-website.onrender.com/",
-    "githubURL": "https://github.com/iansze/EstateMarketPlace"
+    "githubURL": "https://github.com/iansze/EstateMarketPlace",
+    "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
   },
   {
     "title": "Blog with Redux Toolkit",
     "summary": "BlogRTK is a modern web-based blogging platform that allows users to create, share, and engage with blog posts.",
-    "description": "It's built to provide an easy-to-use, interactive, and community-driven blogging experience.",
+    "description": "It's built to provide an easy-to-use, and community-driven blogging experience.  The project is built using React and Redux Toolkit, demonstrating my ability to create dynamic, state-managed web applications.",
     "technology": [
       "React",
       "TypeScript",
@@ -67,7 +68,8 @@
     ],
     "backgroundColor": "#30475E",
     "websiteURL": "https://blog-rtk.onrender.com/",
-    "githubURL": "https://github.com/iansze/BlogRTK"
+    "githubURL": "https://github.com/iansze/BlogRTK",
+    "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
   },
   {
     "title": "Angular Simple Portfolio",
@@ -88,6 +90,7 @@
     ],
     "backgroundColor": "#0F4C75",
     "websiteURL": "https://angular-portfolio.onrender.com/",
-    "githubURL": "https://github.com/iansze/COMP229_Assignment2"
+    "githubURL": "https://github.com/iansze/COMP229_Assignment2",
+    "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
   }
 ]

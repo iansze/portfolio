@@ -7,6 +7,7 @@ export type ProjectData = {
   backgroundColor: string;
   websiteURL: string;
   githubURL: string;
+  remarks?: string;
 };
 
 export type FormInputData = {

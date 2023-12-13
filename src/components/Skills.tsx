@@ -9,39 +9,39 @@ const Skills = () => {
         className="relative my-4 flex  flex-col gap-2 p-4 md:mx-auto md:w-10/12"
       >
         <div className="flex items-center">
-          <div className="border-border mr-4 grow border-b border-solid"></div>
-          <h1 className="font-robotoSlab text-primary text-center text-3xl font-bold">
+          <div className="mr-4 grow border-b border-solid border-border"></div>
+          <h1 className="text-center font-robotoSlab text-3xl font-bold text-primary">
             SKILLS SET
           </h1>
-          <div className=" border-border ml-4 grow border-b border-solid"></div>
+          <div className=" ml-4 grow border-b border-solid border-border"></div>
         </div>
 
         <div className="font-openSans">
           <div className="container mx-auto p-4">
-            <div className="grid gap-8 pt-4 text-center md:grid-cols-2 md:text-left">
+            <div className="grid gap-8  text-center md:grid-cols-2 md:text-left">
               <div className="space-y-2 ">
-                <h3 className="text-secondary text-xl font-semibold">
+                <h3 className="text-xl font-semibold text-secondary">
                   Programming Languages
                 </h3>
                 <p className="text-secondary">Java, C#, JavaScript</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="text-secondary text-xl font-semibold">
+                <h3 className="text-xl font-semibold text-secondary">
                   Database Management
                 </h3>
                 <p className="text-secondary">Oracle SQL, MongoDB</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="text-secondary text-xl font-semibold">
+                <h3 className="text-xl font-semibold text-secondary">
                   Frameworks
                 </h3>
                 <p className="text-secondary">Angular, React</p>
               </div>
 
               <div className="space-y-2">
-                <h3 className="text-secondary text-xl font-semibold">
+                <h3 className="text-xl font-semibold text-secondary">
                   Technologies
                 </h3>
                 <p className="text-secondary">
