@@ -12,15 +12,15 @@
   width: 150px;
   height: 40px;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #shape {
   stroke-width: 75px;
   fill: transparent;
   stroke: #003366;
-  stroke-dasharray: 104 400;
-  stroke-dashoffset: -213;
+  stroke-dasharray: 160 400;
+  stroke-dashoffset: -175;
   transition: 1s all ease;
 }
 

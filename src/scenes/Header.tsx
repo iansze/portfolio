@@ -28,11 +28,11 @@ const Header = () => {
       className="relative flex items-center justify-center px-8"
     >
       <motion.div
-        className="text-text z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
+        className="z-10 flex h-screen flex-col items-center justify-center gap-2 p-4 text-center text-text lg:w-4/6 lg:px-8 lg:text-left xl:w-1/2 "
         style={{ opacity, scale }}
       >
         <motion.p
-          className="font-robotoSlab text-secondary text-lg"
+          className="font-robotoSlab text-lg text-secondary"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
@@ -40,15 +40,15 @@ const Header = () => {
           Hello, I am
         </motion.p>
         <motion.h1
-          className="font-robotoSlab text-highlight  text-3xl font-semibold"
+          className="font-robotoSlab text-3xl  font-semibold text-highlight"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          Wing Hon Winco Sze
+          Ian Sze
         </motion.h1>
         <motion.div
-          className="font-openSans text-secondary leading-7"
+          className="font-openSans leading-7 text-secondary"
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}

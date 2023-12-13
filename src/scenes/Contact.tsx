@@ -36,11 +36,11 @@ const Contact = () => {
 
   return (
     <section id="contact" className="p-4" ref={ref}>
-      <motion.h1 className="text-primary font-robotoSlab text-center text-3xl font-bold ">
+      <motion.h1 className="text-center font-robotoSlab text-3xl font-bold text-primary ">
         Contact Me
       </motion.h1>
       {/* Icon */}
-      <motion.div className="text-highlight mt-4 text-center">
+      <motion.div className="mt-4 text-center text-white">
         <FontAwesomeIcon icon={icon} size="2x" />
       </motion.div>
       {/* Form */}
@@ -66,11 +66,16 @@ const Contact = () => {
             type="text"
             id="name"
             name="name"
-            className="font-openSans broder rounded-sm border p-2"
+            className="broder rounded-sm border p-2 font-openSans"
             required
           />
           {state.errors && (
-            <ValidationError prefix="Name" field="name" errors={state.errors} />
+            <ValidationError
+              prefix="Name"
+              field="name"
+              errors={state.errors}
+              className="font-openSans font-semibold text-red-500"
+            />
           )}
 
           <label htmlFor="email" className="font-openSans text-secondary">
@@ -80,14 +85,14 @@ const Contact = () => {
             type="email"
             id="email"
             name="email"
-            className="font-openSans rounded-sm border p-2"
+            className="rounded-sm border p-2 font-openSans font-semibold"
             required
           />
           {state.errors && (
             <ValidationError
               prefix="Email"
               field="email"
-              className="text-red-500"
+              className="font-openSans font-semibold text-red-500"
               errors={state.errors}
             />
           )}
@@ -99,14 +104,14 @@ const Contact = () => {
             name="message"
             cols={20}
             rows={5}
-            className="font-openSans rounded-sm border p-2"
+            className="rounded-sm border p-2 font-openSans"
             required
           />
           {state.errors && (
             <ValidationError
               prefix="Message"
               field="message"
-              className="text-red-500"
+              className="font-openSans font-semibold text-red-500"
               errors={state.errors}
             />
           )}
@@ -114,7 +119,8 @@ const Contact = () => {
           <button
             disabled={state.submitting}
             type="submit"
-            className="font-openSans bg-highlight mt-2 rounded-sm border p-2 font-semibold text-white hover:bg-blue-700"
+            data-ripple-light="true"
+            className="mt-2 select-none rounded-lg bg-highlight px-6 py-3 text-center align-middle font-sans font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           >
             Send
           </button>

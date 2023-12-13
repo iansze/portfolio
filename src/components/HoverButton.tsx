@@ -9,7 +9,7 @@ type HoverButtonProps = {
 const HoverButton = ({ text }: HoverButtonProps) => {
   return (
     <motion.div
-      className="svg-wrapper font-openSans cursor-pointer font-semibold"
+      className="svg-wrapper cursor-pointer font-openSans font-semibold"
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.9 }}
