@@ -18,13 +18,13 @@ const AboutMe = () => {
             <div className=" ml-4 grow border-b border-solid border-border"></div>
           </div>
           <p className="font-openSans text-secondary">
-            I'm Wing Hon Winco Sze, a Front-End Developer with aspirations to
-            become a Full-Stack Developer.
+            I'm Ian Sze, a Front-End Developer with aspirations to become a
+            Full-Stack Developer.
           </p>
           <p className="font-openSans text-secondary">
-            My expertise lies in React, Angular, HTML, CSS, and Tailwind,
-            complemented by a growing proficiency in back-end development.
-            Currently focusing on improving my Java skills.
+            My expertise lies in React, HTML, CSS, and Tailwind, complemented by
+            a growing proficiency in back-end development. Currently focusing on
+            improving my Java skills.
           </p>
           <p className="font-openSans text-secondary">
             Passionate about crafting comprehensive web solutions, I am
