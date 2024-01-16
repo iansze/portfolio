@@ -1,5 +1,37 @@
 [
   {
+    "title": "DashBoard",
+    "summary": "Dashboard is a full-stack web application designed to streamline business operations. It features a robust backend built with Node.js and a dynamic frontend developed using React and TypeScript.",
+    "description": "The application is split into two main components: a backend built using Node.js and a frontend developed with React and TypeScript. This architecture ensures both robust performance and an engaging user experience.",
+    "technology": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Redux",
+      "SCSS",
+      "OracleDB",
+      "Axios",
+      "Material UI"
+    ],
+    "images": [
+      "/dashboard/dashboard-home.png",
+      "/dashboard/dashboard-orders.png",
+      "/dashboard/dashboard-users.png",
+      "/dashboard/dashboard-barChart.png",
+      "/dashboard/dashboard-lineChart.png",
+      "/dashboard/dashboard-calendar.png",
+      "/dashboard/dashboard-calendarEvent.png",
+      "/dashboard/dashboard-home-login.png",
+      "/dashboard/dashboard-oracleMember.png",
+      "/dashboard/dashboard-oracleEvent.png"
+    ],
+    "backgroundColor": "#394B59",
+    "websiteURL": "https://dashboard-9h78.onrender.com/",
+    "githubURL": "https://github.com/iansze/Dashboard",
+    "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
+  },
+  {
     "title": "TMDB Movie App",
     "summary": "The TMDB project is a web-based platform designed for movie enthusiasts. It offers a comprehensive and engaging experience for users looking to explore, discover, and learn more about various movies.",
     "description": "The application combines a visually appealing interface with user-friendly functionalities to create a seamless movie browsing and discovery experience.",
@@ -18,7 +50,7 @@
       "/movie/movie-details.png",
       "/movie/movie-payment.png"
     ],
-    "backgroundColor": "#394B59",
+    "backgroundColor": "#30475E",
     "websiteURL": "https://moiv-4c40c.firebaseapp.com/",
     "githubURL": "https://github.com/iansze/TMDB"
   },
@@ -66,7 +98,7 @@
       "/blog/blog-edit_post.png",
       "/blog/blog-users_list.png"
     ],
-    "backgroundColor": "#30475E",
+    "backgroundColor": "#0b2838",
     "websiteURL": "https://blog-rtk.onrender.com/",
     "githubURL": "https://github.com/iansze/BlogRTK",
     "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
