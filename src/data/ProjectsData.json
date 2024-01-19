@@ -27,7 +27,7 @@
       "/dashboard/dashboard-oracleEvent.png"
     ],
     "backgroundColor": "#394B59",
-    "websiteURL": "https://dashboard-9h78.onrender.com/",
+    "websiteURL": "http://dashboard-por.s3-website-us-east-1.amazonaws.com/",
     "githubURL": "https://github.com/iansze/Dashboard",
     "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
   },
@@ -75,7 +75,7 @@
       "/estate/estate-profile.png"
     ],
     "backgroundColor": "#2A3439",
-    "websiteURL": "https://estate-website.onrender.com/",
+    "websiteURL": "http://estateplace.s3-website-us-east-1.amazonaws.com/",
     "githubURL": "https://github.com/iansze/EstateMarketPlace",
     "remarks": "*This project is hosted on a free platform, so users might experience longer load times or may need to refresh the page occasionally."
   },
